@@ -1,5 +1,12 @@
 # 🚀 Fraud Detection in Financial Transactions using Graph Neural Networks 🚀
 
+[![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/vivek7208/DGL-Fraud-Detection/blob/master/dgl-fraud-detection.ipynb)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Preview in nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/vivek7208/DGL-Fraud-Detection/blob/master/dgl-fraud-detection.ipynb)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vivek7208/DGL-Fraud-Detection/blob/master/dgl-fraud-detection.ipynb)
+
+
 In this project, I demonstrate the tremendous potential of Graph Neural Networks (GNNs) 🔀 for detecting fraudulent transactions 💳💰. I harness the power of Amazon SageMaker 🧪 for model training and hyper-parameter optimization and leverage the Deep Graph Library (DGL) to work with intricate graph data structures and train a Relational Graph Convolutional Networks (Relational-GCN) model. 💡
 
 ## 🔬 Understanding Graph Neural Networks (GNNs)
