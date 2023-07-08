@@ -1,9 +1,4 @@
-# dgl_fraud_detection
-
-Need to remove all the person info like account number
-
----
-# 🚀 Fraud Detection in Financial Transactions using Graph Neural Networks and Amazon SageMaker 🚀
+# 🚀 Fraud Detection in Financial Transactions using Graph Neural Networks 🚀
 
 In this project, I demonstrate the tremendous potential of Graph Neural Networks (GNNs) 🔀 for detecting fraudulent transactions 💳💰. I harness the power of Amazon SageMaker 🧪 for model training and hyper-parameter optimization and leverage the Deep Graph Library (DGL) to work with intricate graph data structures and train a Relational Graph Convolutional Networks (Relational-GCN) model. 💡
 
