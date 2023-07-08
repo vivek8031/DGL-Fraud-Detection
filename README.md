@@ -34,6 +34,10 @@ Financial transaction data is inherently relational, containing various features
 
 In these graphs, different nodes and edges represent unique types of attributes. The GNN then leverages this graph structure to learn a hidden representation (embedding) for each transaction, enabling effective classification of whether a transaction is fraudulent. 📊
 
+Here's an illustration of a heterogeneous graph created for this project:
+![Illustration of a Heterogeneous Graph](illustration-dgl.png)
+
+
 ## 💾 Implementing the R-GCN Model
 
 In this project, I have utilized the R-GCN model, a state-of-the-art GNN model suitable for heterogeneous graph input. Additionally, the SageMaker XGBoost model is used as a baseline for comparison. 🏁
@@ -45,6 +49,10 @@ The solution unfolds in three primary stages:
 1. **Data preparation and feature engineering**: Here, I leverage Amazon SageMaker Processing for feature engineering and extraction of edge lists from the transaction and identity datasets. 🔧
 2. **Baseline model training**: I train the SageMaker XGBoost model with Hyper-Parameter Optimization (HPO) as a comparative benchmark. 🧪
 3. **R-GCN model training**: Utilizing Amazon SageMaker's training infrastructure, I train an R-GCN with Hyper-Parameter Optimization (HPO). The R-GCN model, after training, has demonstrated better predictive performance than the baseline XGBoost model on test data. 🏆
+
+Here's the PR curve and ROC curve illustrating the model's performance:
+![PR Curve](output_dgl_best_tuning_job/pr_curve.png)
+![ROC Curve](output_dgl_best_tuning_job/roc_curve.png)
 
 ## 📖 Project Usage
 
